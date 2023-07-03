@@ -6,15 +6,13 @@ public class Circle : Point
     double _radius = 1.0;
     public Circle()
     {
-        
     }
     public Circle(int xCenter, int yCenter, double radius) : base(xCenter, yCenter)
     {
         _radius = radius;   
     }
-    public Circle(Point center, double radius)
+    public Circle(Point center, double radius) : base(center.GetX(), center.GetY())
     {
-        _center = center;
         _radius = radius;
     }
     public double GetRadius()
@@ -71,6 +69,6 @@ public class Circle : Point
     }
     public double Distance(Circle another)
     {
-        return _center.Distance(another._center);
+        return base.Distance(another.GetCenterX(), another.GetCenterY());
     }
 }
