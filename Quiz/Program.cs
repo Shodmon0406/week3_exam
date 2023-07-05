@@ -7,7 +7,7 @@
 
 // #Task2:  What do you know about Field and Property?
 // field i peremennayan faqat da dri class kor mekna field ba camelCase
-// property i metodai metodi tayori get set dor po umolchaniyu metona vozvrashat kna 
+// property i metoda + propety; metodi tayori get set dor po umolchaniyu metona vozvrashat kna 
 //  yo izmenit kna prop ba PascalCase navishta mesha
 
 
